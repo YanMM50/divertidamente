@@ -1,0 +1,78 @@
+body{
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#silhueta{
+    height: 250px;
+}
+
+.central{
+    width: 300px;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 3px 3px 20px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tristeza{
+    width: 100px;
+    background: rgb(17, 0, 255);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+#raiva{
+    width: 100px;
+    background: rgb(255, 0, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+#nojinho{
+    width: 100px;
+    background: rgb(0, 255, 55);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+#alegria{
+    width: 100px;
+    background: rgb(255, 251, 0);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+
+.botoes{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
